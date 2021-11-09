@@ -1,0 +1,28 @@
+//My age as a number
+const myAge = 33;
+
+//Early years in number
+let earlyYears =2;
+
+//early years in dog years
+earlyYears *=10.5;
+
+// my later years age by subtracting 2
+let laterYears = myAge-2;
+
+//later years age in dog years 
+laterYears *= 4;
+
+//Printing early and later years age to the console
+
+console.log('Early years: ' + earlyYears);
+console.log('Later years: ' + laterYears);
+
+//My age in dog years
+let myAgeInDogYears = earlyYears + laterYears;
+
+//My name converted to lower case
+let myName ='Daniel'.toLowerCase();
+
+//A statement on my name, human age and age in dog years
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years`);

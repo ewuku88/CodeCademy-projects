@@ -1,0 +1,16 @@
+// temperature in kelvin
+const kelvin = 0;
+
+/* ke;vin temperature converted to celcius*/
+
+const celsius = kelvin - 273; 
+
+/* Calculation of fahrenheit from celsius value */
+
+let fahrenheit = celsius*(9/5)+32;
+
+//Rounding down fahrenheit value
+fahrenheit=Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
